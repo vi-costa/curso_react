@@ -1,0 +1,35 @@
+.Card { 
+    margin: auto;
+    width: 50%;
+  
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+   
+    overflow: hidden;
+}
+
+.Card .Title{
+  
+    color: white;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+
+}
+.Card .Content { 
+    flex-grow: 1;
+  
+    font-size: 0.7em;
+   
+    background-color: white;
+
+}
+p { 
+    font-size: 1.4em;
+}
+
